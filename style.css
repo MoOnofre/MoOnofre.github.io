@@ -1,0 +1,193 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: #174287; }
+
+    body{
+      background-color: hsl(217, 54%, 11%);
+    }
+
+    .card{
+      width: 291px;
+      height: 501px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #14253D;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right:10px;
+      border-radius: 14px;
+    }
+
+    .product{
+      height: 278px;
+    }
+
+    .equilibrium{
+      opacity: 1;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+    }
+
+    .fade-in{
+      width: 270px;
+      height: 270px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position:relative;
+      top:-278px;
+      border-radius: 8px;
+      opacity: 0;
+      transition: .2s ease;
+    }
+
+    .fade-in:hover {
+      opacity: 1;
+    }
+
+    .fade-in:hover .overlay {
+      opacity: 0.60;
+      cursor: pointer;
+    }
+
+    .overlay{
+      width: 270px;
+      height: 270px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position:relative;
+      top:0px;
+      border-radius: 8px;
+      background-color: hsl(178, 100%, 50%);
+      opacity: 0;
+      transition: .2s ease;
+    }
+
+    .icon{
+        opacity: 0;
+        transition: .2s ease;
+    }
+
+    .view{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+
+    .text {
+      position: absolute;
+      top: 295px;
+      margin-left: 9px;
+      color: white;
+    }
+
+    .text h2{
+      font-family: "Outfit", sans-serif;
+      font-weight: 600px;
+      font-size: 20px;
+    }
+
+    .text h2:hover {
+      color:hsl(178, 100%, 50%);
+      cursor: pointer;
+    }
+
+    .text p{
+      line-height: 25px;
+      font-family: "Outfit", sans-serif;
+      font-weight:lighter;
+      font-size: 16px;
+      color: hsl(215, 51%, 70%);
+    }
+
+    .price{
+      position:absolute;
+      top: 425px;
+      float: left;
+      margin-top:8px;
+      margin-right: 72px;
+      margin-left:10px;
+      width:100px;
+      font-family:"Outfit", sans-serif;
+    }
+  
+
+    .price img{
+      float:left;
+      padding-right: 8px;
+      padding-top: 1px;
+    }
+
+    .price b{
+      color: hsl(178, 100%, 50%);
+      font-size: 15px;
+    }
+
+    .clock{
+      position:absolute;
+      top: 395px;
+      left: 220px;
+      margin-top:23px;
+      font-family:"Outfit", sans-serif;
+      font-weight:300;
+      font-size:15px;
+      color:hsl(215, 51%, 70%)
+    }
+
+    .clock img{
+      float: left;
+      position:absolute;
+      left: -25px;
+      top: 16px;
+    }
+
+    .divider{
+      position: absolute;
+      top: 460px;
+      left: 16px;
+      border-top: 1px solid hsl(215, 51%, 70%);
+      border-bottom: 0px;
+      width: 275px;
+    }
+
+    .author{
+      margin-left: 8px;
+      position:absolute;
+      top: 475px;
+    }
+
+    .author img{
+      border: 1.5px solid white;
+      border-radius: 20px;
+      margin-right: 10px;
+      margin-top: 4px;
+    }
+
+    .author p{
+      float: right;
+      font-family: "Outfit", sans-serif;
+      font-size: 15px;
+      margin-right: 76px;
+      margin-top: 9px;
+      color:hsl(215, 51%, 70%)
+    }
+    
+    .author span{
+      color: white;
+    }
+
+    .author span:hover {
+      color:hsl(178, 100%, 50%);
+      cursor: pointer;
+    }
+
+    map{
+      background: hsl(178, 100%, 50%);
+
+    }
